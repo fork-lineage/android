@@ -6,8 +6,8 @@
 
   <!-- GitLab -->
   <remote  name="sairam-gitlab"
-           fetch="https://gitlab.com/sairam60"
-           revision="refs/heads/12" />
+           fetch="https://gitlab.com/Project-Awaken"
+           revision="refs/heads/12.1" />
 
   <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
