@@ -18,6 +18,12 @@
           revision="twelve"
           review="gerrit.pixelexperience.org" />
 
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/12.1" />
+
   <!-- Removed projects from remote -->
   <remove-project name="platform/art" />
   <remove-project name="LineageOS/android_build_soong" />
@@ -27,6 +33,7 @@
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
@@ -35,6 +42,9 @@
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/libcore" />
@@ -47,6 +57,7 @@
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- Build Soong -->
   <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-19.1">
@@ -65,6 +76,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="hyper" revision="lineage-19.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="hyper" revision="lineage-19.1" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" group="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="hyper" revision="lineage-19.1" />
 
   <!-- Sepolicy Repos -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="hyper" revision="lineage-19.1" />
@@ -82,12 +94,17 @@
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="hyper" revision="lineage-19.1" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="hyper" revision="lineage-19.1" />
 
   <!-- System Repos-->
   <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" groups="pdk" remote="aex" />
   <project path="system/core" name="android_system_core" remote="hyper" revision="lineage-19.1" />
   <project path="system/bt" name="android_system_bt" remote="hyper" revision="lineage-19.1" />
   <project path="system/vold" name="android_system_vold" remote="hyper" revision="lineage-19.1" />
+  <project path="system/netd" name="android_system_netd" remote="hyper" revision="lineage-19.1" />
 
   <!-- Vendor Repos-->
   <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-19.1" />
