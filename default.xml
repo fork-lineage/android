@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  
+  <remote  name="rush-er"
+           fetch="https://github.com/fork-lineage" />
+  
   <remote  name="hyper"
            fetch="https://github.com/ForkLineageOS" />
 
