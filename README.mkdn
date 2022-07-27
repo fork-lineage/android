@@ -11,17 +11,17 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/ForkLineageOS/android.git -b lineage-19.1
+repo init -u https://github.com/fork-lineage/android.git -b lineage-19.1
 ```
 Then to sync up:
 ```
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
-## Finally, to build
+## Finally, to build for Davinci
 ```
 $ source build/envsetup.sh
-$ lunch lineage_$device-userdebug
+$ lunch lineage_davinci-userdebug
 $ make bacon -j$(nproc --all)
 ```
 
