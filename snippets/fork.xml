@@ -45,6 +45,7 @@
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/libcore" />
@@ -98,6 +99,7 @@
   <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="hyper" revision="lineage-19.1" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="hyper" revision="lineage-19.1" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/DeskClock" name="DeskClock" remote="rush-er" revision="lineage-19.1" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="hyper" revision="lineage-19.1" />
 
   <!-- System Repos-->
