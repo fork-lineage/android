@@ -17,14 +17,14 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.1.0_r11" />
+           revision="refs/tags/android-12.1.0_r22" />
 
   <default revision="refs/heads/lineage-19.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r11" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
@@ -690,8 +690,8 @@
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp" />
-  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen" remote="aosp" />
-  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen" remote="aosp" />
+  <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen" />
+  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" remote="aosp" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" />
@@ -1057,6 +1057,7 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/fork.xml" />
   <include name="snippets/davinci-fork.xml" />
+  <include name="snippets/pixel.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
