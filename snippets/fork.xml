@@ -130,5 +130,6 @@
   <project path="external/themelib" name="android_external_themelib" remote="hyper" revision="sc" />
   <project path="external/colorkt" name="android_external_colorkt" remote="hyper" revision="sc" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/bromite-webview" name="platform_external_bromite-webview" remote="rush-er" revision="12.1" />
 
 </manifest>
