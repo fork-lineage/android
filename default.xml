@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  
+  <remote  name="rush-er"
+           fetch="https://github.com/fork-lineage" />
+  
   <remote  name="hyper"
            fetch="https://github.com/ForkLineageOS" />
 
@@ -1053,6 +1056,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/fork.xml" />
+  <include name="snippets/davinci-fork.xml" />
   <include name="snippets/pixel.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
