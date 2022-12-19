@@ -90,7 +90,7 @@
   <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="github" revision="lineage-19.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rush-er" revision="lineage-19.1" />
 
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="rush-er" revision="lineage-19.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="hyper" revision="lineage-19.1" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="hyper" revision="lineage-19.1" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
@@ -104,7 +104,7 @@
   <!-- System Repos-->
   <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" groups="pdk" remote="aex" />
   <project path="system/core" name="android_system_core" remote="hyper" revision="lineage-19.1" />
-  <project path="system/bt" name="android_system_bt" remote="hyper" revision="lineage-19.1" />
+  <project path="system/bt" name="android_system_bt" remote="rush-er" revision="lineage-19.1" />
   <project path="system/vold" name="android_system_vold" remote="hyper" revision="lineage-19.1" />
   <project path="system/netd" name="android_system_netd" remote="hyper" revision="lineage-19.1" />
 
@@ -115,7 +115,6 @@
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="hyper" revision="lineage-19.0" />
   <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="sairam-gitlab" clone-depth="1" />
   
   <!-- System -->
   <project path="system/security" name="android_system_security" groups="pdk" remote="hyper" revision="lineage-19.1" />
@@ -123,7 +122,7 @@
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="hyper" revision="lineage-19.1" />
 
   <!-- External Repos -->
-  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="rush-er" revision="lineage-19.1" />
   <project path="external/sqlite" name="external_sqlite" remote="hyper" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="hyper" revision="lineage-19.1" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="hyper" />
