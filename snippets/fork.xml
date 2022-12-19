@@ -73,7 +73,7 @@
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="hyper" revision="lineage-19.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rush-er" revision="lineage-19.1" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rush-er" revision="lineage-19.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="hyper" revision="lineage-19.1" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" group="pdk" remote="hyper" revision="lineage-19.1" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="hyper" revision="lineage-19.1" />
